@@ -8,6 +8,20 @@
 <p>PUT - localhost:8080/parking-spot/{id}</p>
 <p>DELETE - localhost:8080/parking-spot/{id}</p>
 
+<h3>JSON exemplo - post</h3>
+<p>
+{
+  "parkingSpotNumber": "2085", <br>
+  "licensePlateCar": "RRS8552", <br>
+  "brandCar": "hyundai", <br>
+  "modelCar": "4x4", <br>
+  "colorCar": "cinza", <br>
+  "responsibleName": "Sarah Pereira", <br>
+  "apartment": "107", <br>
+  "block": "c" <br>
+}
+</p>
+
 <h2>Tecnologias usadas</h2>
 <ul>
     <li>Spring Boot</li>
