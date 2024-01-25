@@ -10,7 +10,7 @@
 
 <h3>JSON exemplo - post</h3>
 <p>
-{
+{ <br>
   "parkingSpotNumber": "2085", <br>
   "licensePlateCar": "RRS8552", <br>
   "brandCar": "hyundai", <br>
@@ -34,3 +34,5 @@
 
 <h2>Banco de dados</h2>
 <p>MySql</p>
+<p>Database nome: park_control_db </p>
+<p>*Alteraçoes necessárias no:  src/resources/aplication.properties</p>
