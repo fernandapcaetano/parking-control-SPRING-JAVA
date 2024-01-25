@@ -4,10 +4,12 @@
 <h2>Tecnologias usadas</h2>
 <ul>
     <li>Spring Boot</li>
-    <li>Spring Web</li>
+    <li>Spring MVC</li>
     <li>Spring Data JPA</li>
-    <li>MySQL Driver</li>
-    <li>Validation</li>
+    <li>Spring Validation</li>
+    <li>Spring Security</li>
+    <li>Spring MySQL Driver</li>
+    
 </ul>
 <h2>Banco de dados</h2>
 <p>MySql</p>
