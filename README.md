@@ -28,7 +28,6 @@
     <li>Spring MVC</li>
     <li>Spring Data JPA</li>
     <li>Spring Validation</li>
-    <li>Spring Security</li>
     <li>Spring MySQL Driver</li>    
 </ul>
 
