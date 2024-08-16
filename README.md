@@ -35,3 +35,50 @@
 <p>MySql</p>
 <p>Database nome: park_control_db </p>
 <p>*Alteraçoes necessárias no:  src/resources/aplication.properties</p>
+
+
+```mermaid
+classDiagram
+    class Pessoa {
+        +int id
+        +String nome
+        +String cpf
+        +String telefone
+        +String endereco
+        +Date dataEntrada
+        +Date dataSaida
+    }
+
+    class Proprietario {
+    }
+    class Locatario {
+    }
+    class Morador {
+    }
+    class Apartamento {
+        +int numero
+        +int andar
+        +String bloco
+        +Proprietario proprietario
+        +List~Morador~ moradores
+        +List~Vaga~ vagas
+    }
+    class Vaga {
+        +int id
+        +Apartamento apartamento
+        +Carro carro
+    }
+    class Carro {
+        +String placa
+        +String modelo
+        +String marca
+        +String cor
+    }
+
+    Pessoa <|-- Proprietario
+    Pessoa <|-- Locatario
+    Pessoa <|-- Morador
+    Proprietario --> Apartamento : "1"
+    Apartamento --> Morador : "1..*"
+    Apartamento --> Vaga : "1..*"
+    Vaga --> Carro : "1"
