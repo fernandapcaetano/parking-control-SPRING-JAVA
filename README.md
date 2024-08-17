@@ -22,7 +22,7 @@
 }
 </p>
 
-<h2>Bibliotecas usadas</h2>
+<h2>Dependencias utilizadas</h2>
 <ul>
     <li>Spring Boot</li>
     <li>Spring MVC</li>
