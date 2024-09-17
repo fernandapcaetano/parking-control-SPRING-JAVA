@@ -1,4 +1,4 @@
-<h1>API - Controle de vagas de carro em condomínio</h1>
+<h1>API - Controle de vagas de carro em condomínio.</h1>
 <p>A aplicação tem o objetivo de gerenciar vagas de garagem em um condomínio, onde cada apartamento tem direito a 1 vaga na garagem</p>
 
 <h2>Endpoints</h2>
